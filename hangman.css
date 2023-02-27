@@ -1,0 +1,17 @@
+body{
+    background-color: #57441E;
+    display: flex;
+}
+header{
+    background-color: #967635;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 35px;
+    width: 100%;
+    color: #E6B551;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.contaner{
+    display:flex;
+}
