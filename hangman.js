@@ -33,9 +33,9 @@ function updateGuessedLetters() {
 }
 
 function handleGuess(event) {
-    event.preventDefault();
+    event.preventDefault(); //executes code instead of submitting the form and reloading the page when clicking submit
     const guess = guessInput.value.toLowerCase();
-    guessInput.value = '';
+    guessInput.value = '';//clears the value of the guessInput to guess again
     if (guessedLetters.includes(guess)) {
         alert('You already guessed that letter!');
     } else if (selectedWord.includes(guess)) {
